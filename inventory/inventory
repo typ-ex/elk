@@ -1,5 +1,5 @@
 [logs]
-logs.test ansible_ssh_host=10.19.0.90 ansible_ssh_port=22
+logs.test ansible_ssh_host=10.108.9.90 ansible_ssh_port=22
 
 [web]
-web.test ansible_ssh_host=10.19.0.91 ansible_ssh_port=22
+web.test ansible_ssh_host=10.108.9.91 ansible_ssh_port=22

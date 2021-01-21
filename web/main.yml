@@ -27,5 +27,5 @@
       lineinfile:
         dest: /etc/hosts
         regexp: '.*logs\.test$'
-        line: "10.19.0.90 logs.test"
+        line: "10.108.9.90 logs.test"
         state: present
