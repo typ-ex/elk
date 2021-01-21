@@ -38,3 +38,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       ansible.become = true
     end
   end
+
+end
