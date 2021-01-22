@@ -3,17 +3,18 @@
   gather_facts: yes
 
   vars_files:
-          - vars/main.yml
+    - vars/main.yml
 
   pre_tasks:
-          - name: Update apt cache if needed
-            apt: update_cache=yes cache_valid_time=86400
+    - name: Update apt cache if needed
+      apt: update_cache=yes cache_valid_time=86400
 
   roles:
-          - geerlingguy.java
-          - geerlingguy.nginx
-          - geerlingguy.elasticsearch
-          - geerlingguy.elasticsearch-curator
-          - geerlingguy.kibana
-          - geerlingguy.logstash
-          - geerlingguy.filebeat  
+    - geerlingguy.java
+    - geerlingguy.nginx
+    - geerlingguy.pip
+    - geerlingguy.elasticsearch
+    - geerlingguy.elasticsearch-curator
+    - geerlingguy.kibana
+    - geerlingguy.logstash
+    - geerlingguy.filebeat  
